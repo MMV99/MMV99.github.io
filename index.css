@@ -138,7 +138,7 @@ body {
     max-width: 600px;
     padding-top: 60px;
     z-index: 101;
-    min-height: calc(100vh - 60px);
+    
 }
 
 .home-content h1 {
