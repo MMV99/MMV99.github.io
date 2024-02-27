@@ -7,11 +7,12 @@
     position: fixed;
     top: 0;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
     left: 50%; 
-    width: auto; 
+    width: 120%; 
     max-width: 90%; 
     transform: translateX(-50%);
+    z-index: 9999;
   }
   
   #popup-box {
@@ -30,14 +31,32 @@
     border-radius: 5px;
     cursor: pointer;
   }
+  #popup-overlay.popup-active {
+    display: flex; 
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 320px) {
     #popup-overlay {
       max-width: 95%; 
     }
   
     #popup-box {
       max-width: 90%; 
+    }
+
+    #close-popup {
+        max-width: 90%; 
+      }
+
+
+    .home-content { 
+        max-width: 90%; 
+    }
+
+    .navbar a {
+        margin-left: 20px; 
     }
   }
   
@@ -309,6 +328,10 @@ body {
     width: 100%;
 }
 
+img {
+    max-width: 100%; 
+    height: auto; 
+}
 .home-imgHover {
     position: absolute;
     top: 0;
