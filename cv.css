@@ -75,13 +75,13 @@ body {
 }
 .home-content-wrapper {
     display: grid;
-    grid-template-columns: 100% 85%;
+    grid-template-columns: 15% 85%;
     grid-template-rows: auto auto;   
   }
 
 
 .home-content {
-    max-width: 1200px;
+    max-width: 600px;
     z-index: 101;
 }
 
