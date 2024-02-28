@@ -50,7 +50,7 @@ html, body {
     content: "";
     height: 3px;
     width: 0;
-    background: violet;
+    background: #00f014;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -86,12 +86,14 @@ html, body {
     gap: 20px;                  /* Adds spacing between sections */
     width: 80%; 
     margin: 50px auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text-section {
     border: 2px solid #00acf0; 
     padding: 20px;
     background-color: #fff;
+    font-family: 'Poppins', sans-serif;
 } 
 
 /* Responsive Adjustment */
@@ -117,14 +119,19 @@ html, body {
 }
 
 .container h1{
-    color:violet;
-    font-size: 50px;
+    color:white;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
 }
 
 .container h3{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: #00f014;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container p{
+    color:white;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -132,6 +139,7 @@ html, body {
     border: 2px solid #00acf000;
     padding: 30px;
     background-color: #ffffff00;
+    font-family: 'Poppins', sans-serif;
 } 
 
 /* Responsive Adjustment */
@@ -144,3 +152,8 @@ html, body {
     }
 }
 
+.social-icons i {
+    font-size: 40px;
+    margin: 0 15px; /* Add spacing between icons */
+    color: #00f014;
+}
